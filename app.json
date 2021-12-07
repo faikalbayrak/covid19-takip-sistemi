@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Covid Takip",
+    "slug": "Covid-Takip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.CovidTakip"
+    },
+    "web": {
+      "favicon": "./assets/appIcon.png"
+    }
+  }
+}
